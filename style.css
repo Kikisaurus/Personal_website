@@ -10,6 +10,7 @@
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    z-index: 100;
 }
 
 .logo {
@@ -18,6 +19,7 @@
     top: 10px;
     font-size: 15px;
     font-family: cursive;
+    color:#a2678a;
 }
 
 .links {
@@ -39,16 +41,25 @@
 
 .developer {
     font-size: 30px;
+    font-family:"Poppins", sans-serif;
+    letter-spacing: 2px;
+    background: linear-gradient( to bottom, transparent 50%, #a6ff96 50%);
+    width: 600px;
 }
 
 .statement {
-    font-size: 20px;
+    font-size: 25px;
+    color: #a2678a;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: #64264d;
     margin-right: 20px;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
 }
 
 a:visited {
@@ -64,14 +75,14 @@ a:focus {
 }
 
 body {
-    background-color: seashell;
+    background-image: linear-gradient(to bottom right, #ffcccc, #a076f9);
     font-family: serif;
 }
 
 button {
     color: black;
     background-color: transparent;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 5px;
     text-transform: uppercase;
     height: 30px;
@@ -90,9 +101,10 @@ button {
     margin: 0 auto;
     padding: 20px;
     height: 350px;
-    background-color: #ffffff;
+    background-color: #f1d4d4;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color:#64264d;
 }
 
 .contact-form h3 {
@@ -107,6 +119,7 @@ button {
 .form-container label {
     display: block;
     font-weight: bold;
+    color:#64264d;
 }
 
 .form-container input,
@@ -117,14 +130,23 @@ textarea {
     border-radius: 2px;
     margin-bottom: 1rem;
 }
-
+.find-header h3{
+    color: #64264d;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
+}
 h2 {
     font-weight: normal;
     text-transform: uppercase;
+    color: #64264d;
 }
 
 .myname {
     font-size: 25px;
+    font-family:"Poppins", sans-serif;
+    letter-spacing: 2px;
+    background: linear-gradient( to bottom, transparent 50%, #a6ff96 50%);
+    width: 470px;
 }
 
 .find-container {
@@ -134,7 +156,7 @@ h2 {
     top: 200px;
     display: flex;
     font-size: 16px;
-    border: 2px solid black;
+    border: 2px solid #a2678a;
     text-transform: uppercase;
     height: 30px;
     border-radius: 10px;
@@ -152,8 +174,9 @@ h2 {
     position: relative;
     margin: 0 auto;
     text-align: center;
-    border: 2px solid white;
-    background-color: white;
+    border: 2px solid #64264d;
+    background-color: #f1d4d4;
+    border-radius: 10px;
     width: 400px;
     height: 400px;
     top: 400px;
@@ -166,10 +189,15 @@ h2 {
 
 .techskills-text {
     text-decoration: underline;
+    color:#64264d;
+    font-family: "Poppins", sans-serif;
 }
 
 ul {
     list-style-position: inside;
+    color:#64264d;
+    padding-right: 20px;
+    font-family: "Poppins", sans-serif;
 }
 
 .skills-lists {
@@ -181,8 +209,8 @@ ul {
     position: relative;
     margin: 0 auto;
     text-align: center;
-    background-color: white;
-    border: 2px solid white;
+    background-color: #f1d4d4;
+    border: 2px solid #64264d;
     border-radius: 10px;
     width: 400px;
     height: 400px;
@@ -192,6 +220,8 @@ ul {
 
 .softskills-text {
     text-decoration: underline;
+    color:#64264d;
+    font-family: "Poppins", sans-serif;
 }
 .softskills-list{
     padding: 10px;
@@ -200,20 +230,24 @@ ul {
     position: relative;
     top: 300px;
     left: 200px;
-    background-color:white;
+    background-color:#f1d4d4;
     width:400px;
     height: 300px;
-    border: 2px solid white;
+    border: 2px solid #64264d;
     border-radius: 10px;
     padding: 20px;
 }
 .contact-title{
     font-size: 20px;
     text-decoration: none;
+    color:#64264d;
+    font-family: "Poppins", sans-serif;
 }
 .projects-message{
     font-size: 20px;
     padding-top: 50px;
+    color:#64264d;
+    font-family: "Poppins", sans-serif;
 }
 h3{
     font-weight: normal;
@@ -226,4 +260,5 @@ h5{
     position: relative;
     top: 500px;
     font-size: 20px;
+    color: white;
 }
