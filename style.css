@@ -1,5 +1,3 @@
-.header-border {}
-
 .header {
     position: fixed;
     left: 0;
@@ -19,7 +17,7 @@
     top: 10px;
     font-size: 15px;
     font-family: cursive;
-    color:#a2678a;
+    color: #a2678a;
 }
 
 .links {
@@ -41,9 +39,9 @@
 
 .developer {
     font-size: 30px;
-    font-family:"Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
     letter-spacing: 2px;
-    background: linear-gradient( to bottom, transparent 50%, #a6ff96 50%);
+    background: linear-gradient(to bottom, transparent 50%, #a6ff96 50%);
     width: 600px;
 }
 
@@ -76,7 +74,11 @@ a:focus {
 
 body {
     background-image: linear-gradient(to bottom right, #ffcccc, #a076f9);
-    font-family: serif;
+    height: 100%;
+}
+
+html {
+    min-height: 100%;
 }
 
 button {
@@ -104,7 +106,7 @@ button {
     background-color: #f1d4d4;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    color:#64264d;
+    color: #64264d;
 }
 
 .contact-form h3 {
@@ -119,7 +121,7 @@ button {
 .form-container label {
     display: block;
     font-weight: bold;
-    color:#64264d;
+    color: #64264d;
 }
 
 .form-container input,
@@ -130,11 +132,13 @@ textarea {
     border-radius: 2px;
     margin-bottom: 1rem;
 }
-.find-header h3{
+
+.find-header h3 {
     color: #64264d;
     font-family: "Poppins", sans-serif;
     letter-spacing: 1px;
 }
+
 h2 {
     font-weight: normal;
     text-transform: uppercase;
@@ -143,9 +147,9 @@ h2 {
 
 .myname {
     font-size: 25px;
-    font-family:"Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
     letter-spacing: 2px;
-    background: linear-gradient( to bottom, transparent 50%, #a6ff96 50%);
+    background: linear-gradient(to bottom, transparent 50%, #a6ff96 50%);
     width: 470px;
 }
 
@@ -189,13 +193,13 @@ h2 {
 
 .techskills-text {
     text-decoration: underline;
-    color:#64264d;
+    color: #64264d;
     font-family: "Poppins", sans-serif;
 }
 
 ul {
     list-style-position: inside;
-    color:#64264d;
+    color: #64264d;
     padding-right: 20px;
     font-family: "Poppins", sans-serif;
 }
@@ -220,45 +224,161 @@ ul {
 
 .softskills-text {
     text-decoration: underline;
-    color:#64264d;
+    color: #64264d;
     font-family: "Poppins", sans-serif;
 }
-.softskills-list{
+
+.softskills-list {
     padding: 10px;
 }
-.contact-message{
+
+.contact-message {
     position: relative;
     top: 300px;
     left: 200px;
-    background-color:#f1d4d4;
-    width:400px;
+    background-color: #f1d4d4;
+    width: 400px;
     height: 300px;
     border: 2px solid #64264d;
     border-radius: 10px;
     padding: 20px;
 }
-.contact-title{
+
+.contact-title {
     font-size: 20px;
     text-decoration: none;
-    color:#64264d;
+    color: #64264d;
     font-family: "Poppins", sans-serif;
 }
-.projects-message{
+
+.projects-message {
     font-size: 20px;
     padding-top: 50px;
-    color:#64264d;
+    color: #64264d;
     font-family: "Poppins", sans-serif;
 }
-h3{
+
+h3 {
     font-weight: normal;
 }
-h4{
+
+h4 {
     font-weight: normal;
 }
-h5{
+
+h5 {
     text-align: center;
     position: relative;
     top: 500px;
     font-size: 20px;
-    color: white;
+    color: #64264d;
+    font-weight: normal;
+    font-family: "Poppins", sans-serif;
+}
+
+.about-all {
+    font-family: "Poppins", sans-serif;
+}
+
+.about-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 50px;
+}
+
+.about-header h1{
+    font-weight: normal;
+    text-decoration: underline;
+    color: #64264d;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.q1-all {
+    padding-top: 1px;
+    text-align: center;
+}
+
+.about-q1 {
+    font-size: 20px;
+    background: linear-gradient(to bottom, transparent 50%, #a6ff96 50%);
+    width: 680px;
+}
+
+.answer-q1 {
+    font-size: 20px;
+    color: #a2678a;
+    position: relative;
+    right: 380px;
+}
+
+.q2-all {
+    float: right;
+    text-align: center;
+}
+
+.about-q2 {
+    font-size: 20px;
+    background: linear-gradient(to bottom, transparent 50%, #a6ff96 50%);
+    width: 730px;
+}
+
+.answer-q2 {
+    font-size: 20px;
+    color: #a2678a;
+}
+
+.q3-all {
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+.about-q3 {
+    font-size: 20px;
+    background: linear-gradient(to bottom, transparent 50%, #a6ff96 50%);
+    width: 680px;
+}
+
+.answer-q3 {
+    font-size: 20px;
+    color: #a2678a;
+}
+.all-q4{
+    float: right;
+    position: relative;
+    top: 170px;
+    text-align: center;
+}
+.about-q4{
+    font-size: 20px;
+    background: linear-gradient(to bottom, transparent 50%, #a6ff96 50%);
+    width: 400px;
+}
+.answer-q4{
+    font-size: 20px;
+    color: #a2678a;
+}
+.leo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    top: 180px;
+    left:690px;
+}
+.leo img{
+    height:100%;
+    width: 100%;
+}
+.leo-facts{
+    position: relative;
+    right: 130px;
+    bottom: 400px;
+    color: #64264d;
+    font-weight: normal;
 }
