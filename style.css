@@ -1,12 +1,15 @@
+.header-border {}
+
 .header {
     position: fixed;
     left: 0;
     right: 0;
+    top: 0;
     align-items: center;
-    height: 20px;
-    padding: 10px;
+    height: 40px;
     display: flex;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .logo {
@@ -28,8 +31,7 @@
 .innercontent {
     position: relative;
     top: 200px;
-    left: 200px;
-    /* height: 500px; */
+    left: 50px;
     padding: 80px;
     align-items: center;
     color: black;
@@ -65,7 +67,8 @@ body {
     background-color: seashell;
     font-family: serif;
 }
-button{
+
+button {
     color: black;
     background-color: transparent;
     border: 2px solid black;
@@ -73,10 +76,16 @@ button{
     text-transform: uppercase;
     height: 30px;
 }
-.form-container{
+
+.contact-form {
     position: relative;
-    top: 900px;
-    left: 600px;
+    right: 100px;
+}
+
+.form-container {
+    position: relative;
+    top: 700px;
+    left: 420px;
     max-width: 30%;
     margin: 0 auto;
     padding: 20px;
@@ -85,31 +94,43 @@ button{
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
-.contact-form h3{
-text-align: center;
-margin-bottom: 20px;
+
+.contact-form h3 {
+    text-align: center;
+    margin-bottom: 20px;
 }
-.form-group{
+
+.form-group {
     margin-bottom: 30px;
 }
-.form-container label{
+
+.form-container label {
     display: block;
     font-weight: bold;
 }
-.form-container input, textarea{
-    width:400px;
+
+.form-container input,
+textarea {
+    width: 400px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 2px;
     margin-bottom: 1rem;
 }
-.myname{
+
+h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.myname {
     font-size: 25px;
 }
-.find-container{
+
+.find-container {
     position: relative;
     margin: 0 auto;
-    left: 500px;
+    left: 400px;
     top: 200px;
     display: flex;
     font-size: 16px;
@@ -121,7 +142,88 @@ margin-bottom: 20px;
     padding-left: 30px;
     padding-bottom: 20px;
 }
-.find-links{
+
+.find-links {
     font-size: 18px;
     padding: 20px;
+}
+
+.techskills-container {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid white;
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    top: 400px;
+    font-size: 20px;
+}
+
+.techskills-list {
+    padding: 10px;
+}
+
+.techskills-text {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+.skills-lists {
+    display: flex;
+
+}
+
+.softskills-container {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    top: 400px;
+    font-size: 20px;
+}
+
+.softskills-text {
+    text-decoration: underline;
+}
+.softskills-list{
+    padding: 10px;
+}
+.contact-message{
+    position: relative;
+    top: 300px;
+    left: 200px;
+    background-color:white;
+    width:400px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.contact-title{
+    font-size: 20px;
+    text-decoration: none;
+}
+.projects-message{
+    font-size: 20px;
+    padding-top: 50px;
+}
+h3{
+    font-weight: normal;
+}
+h4{
+    font-weight: normal;
+}
+h5{
+    text-align: center;
+    position: relative;
+    top: 500px;
+    font-size: 20px;
 }
