@@ -75,6 +75,8 @@ a:focus {
 body {
     background-image: linear-gradient(to bottom right, #ffcccc, #a076f9);
     height: 100%;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
 }
 
 html {
@@ -290,13 +292,14 @@ h5 {
     height: 50px;
 }
 
-.about-header h1{
+.about-header h1 {
     font-weight: normal;
     text-decoration: underline;
     color: #64264d;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
 .q1-all {
     padding-top: 1px;
     text-align: center;
@@ -347,38 +350,152 @@ h5 {
     font-size: 20px;
     color: #a2678a;
 }
-.all-q4{
+
+.all-q4 {
     float: right;
     position: relative;
     top: 170px;
     text-align: center;
 }
-.about-q4{
+
+.about-q4 {
     font-size: 20px;
     background: linear-gradient(to bottom, transparent 50%, #a6ff96 50%);
     width: 400px;
 }
-.answer-q4{
+
+.answer-q4 {
     font-size: 20px;
     color: #a2678a;
 }
-.leo{
+
+.leo {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
     position: relative;
     top: 180px;
-    left:690px;
+    left: 690px;
 }
-.leo img{
-    height:100%;
+
+.leo img {
+    height: 100%;
     width: 100%;
 }
-.leo-facts{
+
+.leo-facts {
     position: relative;
     right: 130px;
     bottom: 400px;
     color: #64264d;
     font-weight: normal;
+}
+
+.portfolio-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 50px;
+}
+
+.portfolio-header h1 {
+    font-weight: normal;
+    text-decoration: underline;
+    color: #64264d;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Poppins", sans-serif;
+}
+
+.p1 {
+    padding-top: 10px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    top: 10px;
+}
+
+.p1-title {
+    font-size: 20px;
+    background: linear-gradient(to bottom, transparent 50%, #a6ff96 50%);
+    width: 300px;
+    position: relative;
+    left: 50px;
+}
+
+.p1-text {
+    font-size: 20px;
+    color: #a2678a;
+    position: relative;
+    right: 500px;
+}
+
+.p2 {
+    float: right;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.p2-title {
+    font-size: 20px;
+    background: linear-gradient(to bottom, transparent 50%, #a6ff96 50%);
+    width: 300px;
+    position: relative;
+    left: 90px;
+}
+
+.p2-text {
+    font-size: 20px;
+    color: #a2678a;
+}
+
+.p3 {
+    padding-top: 2px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    top: 50px;
+}
+
+.p3-title {
+    font-size: 20px;
+    background: linear-gradient(to bottom, transparent 50%, #a6ff96 50%);
+    width: 300px;
+    position: relative;
+    left: 80px;
+}
+
+.p3-text {
+    font-size: 20px;
+    color: #a2678a;
+    position: relative;
+    right: 480px;
+}
+
+.github-text {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: #64264d;
+    position: relative;
+    bottom: 100px;
+}
+.grocery img{
+    border-radius: 20px;
+    width: 300px;
+    height:200px;
+    position: relative;
+    left: 600px;
+    top: 10px;
+}
+.zoo img{
+border-radius: 20px;
+width: 400px;
+height: 200px;
+position: relative;
+left: 530px;
+bottom: 150px;
 }
