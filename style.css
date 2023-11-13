@@ -499,3 +499,17 @@ position: relative;
 left: 530px;
 bottom: 150px;
 }
+.message-sent{
+    text-align: center;
+    color:#64264d;
+}
+.message-sent h1{
+    font-weight: normal;
+}
+.message-sent img{
+    text-align: center;
+}
+.home-link a{
+    position: relative;
+    left: 600px;
+}
