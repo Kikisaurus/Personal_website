@@ -76,7 +76,7 @@ body {
     background-image: linear-gradient(to bottom right, #ffcccc, #a076f9);
     height: 100%;
     background-repeat: no-repeat;
-    background-attachment:fixed;
+    background-attachment: fixed;
 }
 
 html {
@@ -84,9 +84,9 @@ html {
 }
 
 button {
-    color: black;
+    color: #64264d;
     background-color: transparent;
-    border: 2px solid white;
+    border: 2px solid #64264d;
     border-radius: 5px;
     text-transform: uppercase;
     height: 30px;
@@ -277,121 +277,6 @@ h5 {
     font-weight: normal;
     font-family: "Poppins", sans-serif;
 }
-
-.about-all {
-    font-family: "Poppins", sans-serif;
-}
-
-.about-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    left: 0;
-    right: 0;
-    top: 0;
-    height: 50px;
-}
-
-.about-header h1 {
-    font-weight: normal;
-    text-decoration: underline;
-    color: #64264d;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-.q1-all {
-    padding-top: 1px;
-    text-align: center;
-}
-
-.about-q1 {
-    font-size: 20px;
-    background: linear-gradient(to bottom, transparent 50%, #a6ff96 50%);
-    width: 680px;
-}
-
-.answer-q1 {
-    font-size: 20px;
-    color: #a2678a;
-    position: relative;
-    right: 380px;
-}
-
-.q2-all {
-    float: right;
-    text-align: center;
-}
-
-.about-q2 {
-    font-size: 20px;
-    background: linear-gradient(to bottom, transparent 50%, #a6ff96 50%);
-    width: 730px;
-}
-
-.answer-q2 {
-    font-size: 20px;
-    color: #a2678a;
-}
-
-.q3-all {
-    text-align: center;
-    position: relative;
-    top: 200px;
-}
-
-.about-q3 {
-    font-size: 20px;
-    background: linear-gradient(to bottom, transparent 50%, #a6ff96 50%);
-    width: 680px;
-}
-
-.answer-q3 {
-    font-size: 20px;
-    color: #a2678a;
-}
-
-.all-q4 {
-    float: right;
-    position: relative;
-    top: 170px;
-    text-align: center;
-}
-
-.about-q4 {
-    font-size: 20px;
-    background: linear-gradient(to bottom, transparent 50%, #a6ff96 50%);
-    width: 400px;
-}
-
-.answer-q4 {
-    font-size: 20px;
-    color: #a2678a;
-}
-
-.leo {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    overflow: hidden;
-    position: relative;
-    top: 180px;
-    left: 690px;
-}
-
-.leo img {
-    height: 100%;
-    width: 100%;
-}
-
-.leo-facts {
-    position: relative;
-    right: 130px;
-    bottom: 400px;
-    color: #64264d;
-    font-weight: normal;
-}
-
 .portfolio-header {
     display: flex;
     justify-content: space-between;
@@ -483,33 +368,43 @@ h5 {
     position: relative;
     bottom: 100px;
 }
-.grocery img{
+
+.grocery img {
     border-radius: 20px;
     width: 300px;
-    height:200px;
+    height: 200px;
     position: relative;
     left: 600px;
     top: 10px;
 }
-.zoo img{
-border-radius: 20px;
-width: 400px;
-height: 200px;
-position: relative;
-left: 530px;
-bottom: 150px;
+
+.zoo img {
+    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    left: 530px;
+    bottom: 150px;
 }
-.message-sent{
+
+.message-sent {
     text-align: center;
-    color:#64264d;
+    color: #64264d;
 }
-.message-sent h1{
+
+.message-sent h1 {
     font-weight: normal;
 }
-.message-sent img{
+
+.message-sent img {
     text-align: center;
 }
-.home-link a{
+
+.home-link a {
     position: relative;
     left: 600px;
+}
+.scrolldowncontact {
+    border-color: #64264d;
+    color:#64264d;
 }
